@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://niinye.github.io"
+base_url = "https://mwsig.com"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
@@ -23,5 +23,5 @@ news_items = 5
 
 # Links to author webpages
 author = [
-  { name = "Rachit Nigam", link = "https://rachitnigam.com/" }
+  { name = "Daniel Mwesigwa", link = "https://mwsig.com" }
 ]

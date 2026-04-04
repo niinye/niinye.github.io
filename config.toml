@@ -10,14 +10,21 @@ build_search_index = false
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
+# highlight_code = true (for code blocks - incompatible 04042026)
 external_links_target_blank = true
 external_links_no_follow = true
 external_links_no_referrer = true
 smart_punctuation = true
+
 
 [extra]
 # Put all your custom variables here
 
 # Theme specification added on 04/04/26
 theme = "rani"
+news_items = 5
+
+# Links to author webpages
+author = [
+  { name = "Daniel Mwesigwa", link = "https://mwsig.com" }
+]
