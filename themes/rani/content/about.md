@@ -1,0 +1,19 @@
++++
+template = "index.html"
++++
+
+Daniel Mwesigwa is a PhD student in Information Science at Cornell University. He broadly studies the design and governance of sociotechnical AI systems, as well as the benefits and costs that these systems produce. Using lens from social informatics, ML, and anthropology, he studies financial infrastructures in the global majority world, centering the informal practices that inform commercial design and adoption of new technologies in the making of digital credit relations. His research centers moral values and their role in structuring expert and ordinary life in different social spaces and spheres of practice. Daniel has previously worked as a technology researcher and policy analyst. He is a research affiliate of CIPESA, a leading technology policy think tank in Africa and was an affiliate of the Berkman Klein Center for Internet & Society at Harvard from 2020 to 2024.
+
+
+<!-- Previously, he worked at Google on the [XLA][] (Accelerated Linear Algebra) compiler and the [TPU][] (Tensor Processing Unit). Prior to industry, his research focused on [Calyx][], a compiler infrastructure for languages that target hardware accelerators. This led to further collaboration with [CIRCT][], an experimental compiler to improve hardware design tools. The work was completed under Cornell University's [CAPRA][], spearheaded by [Adrian Sampson][asampson] and [Rachit Nigam][rnigam].
+
+In his free time, Christophe enjoys speaking natural languages (French and Italian) and rock climbing. A recent memorable adventure was the [Tuolumne Triple Crown][triple-crown].
+
+[asampson]: https://www.cs.cornell.edu/~asampson/
+[calyx]: https://calyxir.org
+[capra]: https://capra.cs.cornell.edu/
+[circt]: https://circt.llvm.org/
+[rnigam]: https://www.rachitnigam.com/
+[tpu]: https://en.wikipedia.org/wiki/Tensor_Processing_Unit
+[triple-crown]: https://www.mountainproject.com/route/107677399/tenaya-matthes-cathedral-traverse
+[xla]: https://www.tensorflow.org/xla -->
