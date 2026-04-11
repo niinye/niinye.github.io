@@ -79,7 +79,11 @@
 {% macro publication(pub) %}
 <div class="publication">
   <div class="publication-venue">
-    {% if not pub.extra.publication_short %}
+    {% if pub.extra.publisher %}
+    {{- pub.extra.publisher -}}
+    &nbsp;
+    {{ pub.date | date(format="’%y") }}
+    {% elif not pub.extra.publication_short %}
     <i>Draft</i>
     {% else %}
     {{- pub.extra.publication_short -}}
@@ -89,13 +93,7 @@
   </div>
   <div class="publication-details">
     <div class="publication-title">
-      {% if pub.extra.pdf %}
-      <a href={{ pub.extra.pdf }}>
-        {% endif %}
-        {{ pub.title | safe }}
-        {% if pub.extra.pdf %}
-      </a>
-      {% endif %}
+      {{ pub.title | safe }}
     </div>
     <div>
       {% for name in pub.extra.authors %}
@@ -110,6 +108,13 @@
     </div>
     {% endif %}
     <div class="publication-links">
+      {% if pub.extra.pdf and pub.extra.pdf | trim != "" %}
+      <span class="publication-link">
+        <a class="unstyled-link" href="{{ pub.extra.pdf }}" target="_blank" rel="noopener noreferrer">
+          【&#8239;PDF&#8239;】
+        </a>
+      </span>
+      {% endif %}
       {% set sorted_links = pub.extra.urls | sort(attribute="name") %}
       {% for link in sorted_links %}
       <span class="publication-link">
