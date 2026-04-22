@@ -15,6 +15,7 @@ summary = 'In this ethnographic fieldnote, I detail how I got caught up in an et
 _Editorial note: I use pseudonyms for people and buildings in this ethnographic note. I sometimes maintain institutional names for relevant streets and organizations. This ethnographic fieldnote is nearly 5,000 words._
 
 In 2024, I got caught up in an ethical conundrum when my interlocutor, a signpost holder for a repair shop, was arrested by Kampala capital city authority agents. I was torn between “saving” my intercolutor from the throes of law enforcement agents and the chance to “follow” the action of his arrest (and eventual extortion). For a while, I had heard and read all sorts of stories about the nefariousness of law enforcement agents in Kampala but this time, I was part of these scenes/sins, and pronto, was I tested?
+----
 
 Jama is visibly a young man. He is probably in his early twenties. He is holding two laminated signposts: One is emblazoned in red with a generic “Phone Repair” and other words such as “Flashing,” while the second signpost has the text “Free Eye Checkup” (in green). 
 
