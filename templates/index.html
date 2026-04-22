@@ -25,6 +25,13 @@
   </div>
 </div>
 
+<!-- Job market -->
+<div class="job-market">
+  <span class="label">2026–27</span>
+  <p>I'm on the job market for <strong>tenure-track &amp; postdoc</strong> roles, and for <strong>research scientist &amp; AI policy</strong> roles in industry. 
+    <a href="mailto:dm663+pp@cornell.edu?subject=Job%20market%20inquiry">Send me recommendations</a>.</p>
+</div>
+
 <!-- Bio -->
 <section>
   <div class="bio">
@@ -32,17 +39,40 @@
     {{ page.content | safe }}
   </div>
 
-  <!-- News -->
+<!-- News -->
+<section>
+  <h2 id="news">News</h2>
+
   {% set news = get_section(path="news/_index.md") %}
   {% set items = config.extra.news_items %}
-  {% for post in news.pages | sort(attribute="date") | reverse | slice(end=items) %}
-  {{ m::generate_news(post=post) }}
+  {% for post in news.pages | filter(attribute="date") | sort(attribute="date") | reverse | slice(end=items) %}
+    {{ m::generate_news(post=post) }}
   {% endfor %}
+
   <div class="more">
     <a href="/news">
-      All News
+      All News 
       <i class="fa fa-angle-double-right"></i>
     </a>
+  </div>
+</section>
+
+<!-- Recent Notes -->
+<section id="notes">
+  <h2>
+    Recent Notes
+    <sup class="rss"><a class="unstyled-link" href="{{ get_url(path=" post/atom.xml") }}" aria-label="RSS"><i class="fas fa-rss"></i></a></sup>
+  </h2>
+
+  <div class="notes-grid">
+    {% set notes = get_section(path="post/_index.md") %}
+    {% for post in notes.pages | sort(attribute="date") | reverse | slice(end=3) %}
+      {{ m::generate_note_card(post=post) }}
+    {% endfor %}
+  </div>
+
+  <div class="more" style="margin-top:1.2em">
+    <a href="/post">All Notes <i class="fa fa-angle-double-right"></i></a>
   </div>
 </section>
 
@@ -72,7 +102,7 @@
 
 </section>
 
-<!-- Blog Posts -->
+<!-- Blog Posts
 <section>
   <h2 id="posts">Posts
     <sup>
@@ -94,4 +124,4 @@
   </div>
 </section>
 
-{% endblock content %}
+{% endblock content %} -->

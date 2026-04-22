@@ -19,7 +19,7 @@ publication_short = "CHI"
 
 # pdf = "/files/pubs/airtime_travel_chi24.pdf"
 urls = [
-    { name = "arXiv", url = "https://arxiv.org/abs/2602.01824" }
+    { name = "ACM Digital Library", url = "https://dl.acm.org/doi/10.1145/3772318.3790924" }
 ]
 
 type="conf"

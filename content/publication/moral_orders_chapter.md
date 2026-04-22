@@ -21,7 +21,9 @@ publication_short = "Politics of Repair"
 publisher = "Forthcoming"
 
 pdf = "/files/pubs/Moral_orders_book_chapter.pdf"
-urls = [ ]
+urls = [
+    { name = "arXiv", url = "https://arxiv.org/abs/2604.10279" }
+]
 
 type = "book_chapter"
 +++

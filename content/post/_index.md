@@ -5,3 +5,7 @@ template = "post.html"
 page_template = "post-page.html"
 generate_feeds = true
 +++
+
+[extra]
+summary = "Short tease text"
+tag = "Fieldnote"

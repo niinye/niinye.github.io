@@ -14,25 +14,40 @@
 
 {% endmacro contact %}
 
-
-{# Styling for Posts #}
 {% macro generate_post(post) %}
 <div class="blurb">
   <div class="date">{{ post.date | date(format="%b ’%y") }}</div>
   <div class="description">
     {% if post.extra.external %}
-    <a href="{{ post.extra.external | safe }}">
-      {% else %}
+      <a href="{{ post.extra.external | safe }}">
+    {% else %}
       <a href="{{ post.permalink | safe }}">
-        {% endif %}
-        {{ post.title | safe }}
-      </a><br />
-      <div class="post-tease">
+    {% endif %}
+      {{ post.title | safe }}
+    </a><br/>
+    <div class="post-tease">
+      {% if post.extra.summary %}
         {{ post.extra.summary }}
-      </div>
+      {% elif post.summary %}
+        {{ post.summary | striptags | truncate(length=140) }}
+      {% endif %}
+    </div>
   </div>
 </div>
-{% endmacro post %}
+{% endmacro generate_post %}
+
+{# Card-style recent note #}
+{% macro generate_note_card(post) %}
+<a class="note-card" href="{% if post.extra.external %}{{ post.extra.external | safe }}{% else %}{{ post.permalink | safe }}{% endif %}">
+  <div class="note-meta">
+    <span>{{ post.date | date(format="%b '%y") }}</span>
+    {% if post.extra.tag %}<span class="tag">{{ post.extra.tag }}</span>{% endif %}
+  </div>
+  <div class="note-title">{{ post.title | safe }}</div>
+  {% if post.extra.summary %}<div class="note-tease">{{ post.extra.summary }}</div>{% endif %}
+  <div class="note-more">Read</div>
+</a>
+{% endmacro generate_note_card %}
 
 
 {# Styling for News items #}
