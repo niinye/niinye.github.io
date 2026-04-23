@@ -18,7 +18,7 @@ In 2024, I got caught up in an ethical conundrum when my interlocutor, a signpos
 
 ***
 
-Jama is visibly a young man -- ("omulenzi" in Luganda, which can be used to refer to boy). He is probably in his early twenties. He is holding two laminated signposts: One is emblazoned in red with a generic “Phone Repair” and other words such as “Flashing,” while the second signpost has the text “Free Eye Checkup” (in green). 
+Jama is visibly a young man -- ("omulenzi" in Luganda, which can be used to refer to boy). He is probably in his early twenties. He is holding two laminated signposts: One is emblazoned in red with generic words: “Phone Repair” alongside “Flashing,” while the second signpost has the text “Free Eye Checkup” (in green). 
 
 He is at the main entrance of the Pewi Mall. This entrance is on the northeastern side of the building, on [redacted] street, the road that leads to the roundabout that leads to Zanna Mall building. Pewi Mall is located at a site where downtown Kampala begins. Downtown Kampala is the business hub of kampala but its topography it is literally “down town.” While the original Kampala is built on seven hills, downtown connects the old colonial posts in upscale Kololo and Nakasero to Buganda, the kingdom Uganda is named after, which remained in control of Mmengo (the kingdom's outpost) and other hills, on the opposite end of colonial Kololo and Nakasero hills. Most of modern day downtown is located in the valley, the malarial spine, that historically connected the British and Buganda outposts. 
 
