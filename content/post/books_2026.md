@@ -22,4 +22,4 @@ summary = "I've gotten more into decision theory and the foundations of AI and p
 10. Andrea Pollio, *Silicon Elsewhere: Nairobi, Global China, and the Promise of Techno-Capital* (2026)
 11. Leif Weatherby, *Language Machines: Cultural AI and the End of Remainder Humanism* (2025)
 
-PS: I am always happy to receive book recommendations; drop me an email (see contacts on home page)
+PS: I am always happy to receive book recommendations; drop me an email (dm663 [at] cornell.edu)
