@@ -598,7 +598,6 @@ div.footnotes {
 .job-market{
   display:flex; align-items:baseline; gap:12px;
   padding: 12px 16px;
-  border-left: 2px solid #b8533a;
   background: #fbeee6;
   font-size: .92em;
   line-height: 1.5;
